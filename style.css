@@ -1,0 +1,44 @@
+body{
+   font-family: 'Montserrat', sans-serif;  
+   background-color: rgb(245, 245, 245);
+}
+
+.key-code{
+    width: auto;
+    font-size: 220px;
+    margin: auto;
+    text-align: center;  
+    font-weight: bolder;
+    padding-top: 7%;
+}
+
+.event-show{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin: 5% 2%;
+    background-color: white;
+    font-size: large;
+    width: 200px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px -15px;
+}
+
+.box:hover{
+    box-shadow: 0px 15px 55px 0px;
+}
+
+.code{
+    font-size: x-small;
+    padding: 2% 0;
+    background-color: lightskyblue;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.event{
+    padding: 4% 0;
+}
